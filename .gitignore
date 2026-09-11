@@ -21,6 +21,9 @@ database/*.db
 database/*.db-*
 storage/
 tmp/
+tmp_documentacion/
+tmp_taller/
+~$*.docx
 
 # Playwright
 frontend/test-results/
