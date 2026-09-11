@@ -1,0 +1,127 @@
+{
+  "executed_at": "2026-09-11T08:51:11.878292",
+  "passed": 24,
+  "failed": 0,
+  "steps": [
+    {
+      "step": "Health check",
+      "ok": true,
+      "detail": "db=ok, ia=deterministic"
+    },
+    {
+      "step": "Login administrador",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "step": "Crear repositorio",
+      "ok": true,
+      "detail": "id=3"
+    },
+    {
+      "step": "Carga PDF (factura_01.pdf)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "step": "Carga DOCX (contrato_05.docx)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "step": "Carga TXT (hoja_de_vida_08.txt)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "step": "Pipeline completo para los 3 formatos",
+      "ok": true,
+      "detail": "{'hoja_de_vida_08.txt': 'completed', 'contrato_05.docx': 'completed', 'factura_01.pdf': 'completed'}"
+    },
+    {
+      "step": "Clasificacion factura_01.pdf",
+      "ok": true,
+      "detail": "predicha=financiero"
+    },
+    {
+      "step": "Resumen factura_01.pdf",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "step": "Extraccion invoice factura_01.pdf",
+      "ok": true,
+      "detail": "esquemas=['invoice']"
+    },
+    {
+      "step": "Clasificacion contrato_05.docx",
+      "ok": true,
+      "detail": "predicha=legal"
+    },
+    {
+      "step": "Resumen contrato_05.docx",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "step": "Extraccion contract contrato_05.docx",
+      "ok": true,
+      "detail": "esquemas=['contract']"
+    },
+    {
+      "step": "Clasificacion hoja_de_vida_08.txt",
+      "ok": true,
+      "detail": "predicha=talento_humano"
+    },
+    {
+      "step": "Resumen hoja_de_vida_08.txt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "step": "Extraccion resume hoja_de_vida_08.txt",
+      "ok": true,
+      "detail": "esquemas=['resume']"
+    },
+    {
+      "step": "Busqueda textual",
+      "ok": true,
+      "detail": "1 resultados, primero=contrato_05.docx"
+    },
+    {
+      "step": "Busqueda semantica",
+      "ok": true,
+      "detail": "top=hoja_de_vida_08.txt, score=0.1788"
+    },
+    {
+      "step": "RAG: ¿Cual es el total a pagar de la factura FV-2024-100?...",
+      "ok": true,
+      "detail": "citas=3, latencia=0ms, fuente=factura_01.pdf"
+    },
+    {
+      "step": "RAG: ¿Cual es la fecha de terminacion del contrato entre Ramírez-...",
+      "ok": true,
+      "detail": "citas=2, latencia=14ms, fuente=contrato_05.docx"
+    },
+    {
+      "step": "RAG: ¿Que habilidades tiene Fernando Muñoz Mena?...",
+      "ok": true,
+      "detail": "citas=1, latencia=0ms, fuente=hoja_de_vida_08.txt"
+    },
+    {
+      "step": "RAG: ¿Cual es la receta de la bandeja paisa tradicional?...",
+      "ok": true,
+      "detail": "sin evidencia detectada correctamente"
+    },
+    {
+      "step": "Dashboard con datos reales",
+      "ok": true,
+      "detail": "docs=33, procesados=33"
+    },
+    {
+      "step": "Limpieza del repositorio E2E",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

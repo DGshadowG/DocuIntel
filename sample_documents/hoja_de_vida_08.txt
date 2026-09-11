@@ -1,0 +1,27 @@
+Fernando Muñoz Mena
+HOJA DE VIDA - Ingeniero Electronico
+Correo: fernando.muñoz@correo-ficticio.example.com
+Ciudad: Tibasosa
+
+PERFIL PROFESIONAL
+Ingeniero electronico dedicado a la automatizacion de procesos industriales. Cuenta con 2 anos de experiencia en el sector y capacidad de trabajo en equipo, comunicacion asertiva y aprendizaje continuo.
+
+EDUCACION
+- Tecnologia en Administracion - Universidad Industrial de Santander (2022)
+
+EXPERIENCIA LABORAL
+- Lider tecnico en Rueda, Londoño and González (2016 - 2019): gestion de clientes y proveedores.
+- Ingeniero Electronico en Rentería, Vásquez and Palacio (2014 - 2015): desarrollo de proyectos del area.
+
+HABILIDADES
+- PLC
+- Automatizacion
+- SCADA
+- Mantenimiento
+- IoT
+
+IDIOMAS
+- Espanol (nativo)
+
+Referencias disponibles a solicitud.
+Documento generado con datos ficticios para fines academicos.

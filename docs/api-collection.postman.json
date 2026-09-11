@@ -1,0 +1,260 @@
+{
+  "info": {
+    "name": "DocuIntel API v1",
+    "description": "Coleccion de la API del Sistema Inteligente de Gestion y Analisis Documental. Ejecute primero 'Auth / Login' — el token se guarda automaticamente en la variable {{token}}.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:8000/api/v1" },
+    { "key": "token", "value": "" }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [{ "key": "token", "value": "{{token}}", "type": "string" }]
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  pm.collectionVariables.set('token', pm.response.json().access_token);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "auth": { "type": "noauth" },
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/login",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"admin@docuintel.co\",\n  \"password\": \"<SEED_ADMIN_PASSWORD de su .env>\"\n}"
+            }
+          }
+        },
+        { "name": "Usuario actual", "request": { "method": "GET", "url": "{{baseUrl}}/auth/me" } },
+        { "name": "Logout", "request": { "method": "POST", "url": "{{baseUrl}}/auth/logout" } }
+      ]
+    },
+    {
+      "name": "Usuarios (admin)",
+      "item": [
+        { "name": "Listar", "request": { "method": "GET", "url": "{{baseUrl}}/users" } },
+        {
+          "name": "Crear",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/users",
+            "body": { "mode": "raw", "raw": "{\n  \"email\": \"nuevo@docuintel.co\",\n  \"full_name\": \"Usuario Nuevo\",\n  \"password\": \"UnaClaveSegura123\",\n  \"role\": \"user\"\n}" }
+          }
+        },
+        {
+          "name": "Actualizar",
+          "request": {
+            "method": "PATCH",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/users/2",
+            "body": { "mode": "raw", "raw": "{\n  \"is_active\": false\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Repositorios",
+      "item": [
+        { "name": "Listar", "request": { "method": "GET", "url": "{{baseUrl}}/repositories" } },
+        {
+          "name": "Crear",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/repositories",
+            "body": { "mode": "raw", "raw": "{\n  \"name\": \"Contratos 2026\",\n  \"description\": \"Contratos vigentes\"\n}" }
+          }
+        },
+        { "name": "Detalle", "request": { "method": "GET", "url": "{{baseUrl}}/repositories/1" } },
+        {
+          "name": "Editar",
+          "request": {
+            "method": "PATCH",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/repositories/1",
+            "body": { "mode": "raw", "raw": "{\n  \"description\": \"Descripcion actualizada\"\n}" }
+          }
+        },
+        { "name": "Eliminar", "request": { "method": "DELETE", "url": "{{baseUrl}}/repositories/1" } },
+        { "name": "Estadisticas", "request": { "method": "GET", "url": "{{baseUrl}}/repositories/1/stats" } },
+        { "name": "Miembros - listar", "request": { "method": "GET", "url": "{{baseUrl}}/repositories/1/members" } },
+        {
+          "name": "Miembros - agregar",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/repositories/1/members",
+            "body": { "mode": "raw", "raw": "{\n  \"email\": \"usuario@docuintel.co\",\n  \"role\": \"member\"\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Documentos",
+      "item": [
+        {
+          "name": "Cargar (multipart)",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/documents/upload?repository_id=1",
+              "host": ["{{baseUrl}}"],
+              "path": ["documents", "upload"],
+              "query": [{ "key": "repository_id", "value": "1" }]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [{ "key": "files", "type": "file", "src": [] }]
+            }
+          }
+        },
+        {
+          "name": "Listar con filtros",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/documents?repository_id=1&status=completed&category=financiero&page=1&page_size=10",
+              "host": ["{{baseUrl}}"],
+              "path": ["documents"],
+              "query": [
+                { "key": "repository_id", "value": "1" },
+                { "key": "status", "value": "completed" },
+                { "key": "category", "value": "financiero" },
+                { "key": "page", "value": "1" },
+                { "key": "page_size", "value": "10" }
+              ]
+            }
+          }
+        },
+        { "name": "Detalle (con IA)", "request": { "method": "GET", "url": "{{baseUrl}}/documents/1" } },
+        { "name": "Texto extraido", "request": { "method": "GET", "url": "{{baseUrl}}/documents/1/content" } },
+        { "name": "Descargar", "request": { "method": "GET", "url": "{{baseUrl}}/documents/1/download" } },
+        { "name": "Reprocesar", "request": { "method": "POST", "url": "{{baseUrl}}/documents/1/reprocess" } },
+        { "name": "Historial de jobs", "request": { "method": "GET", "url": "{{baseUrl}}/documents/1/jobs" } },
+        {
+          "name": "Corregir categoria",
+          "request": {
+            "method": "PATCH",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/documents/1/category",
+            "body": { "mode": "raw", "raw": "{\n  \"category\": \"legal\"\n}" }
+          }
+        },
+        { "name": "Eliminar", "request": { "method": "DELETE", "url": "{{baseUrl}}/documents/1" } }
+      ]
+    },
+    {
+      "name": "Busqueda",
+      "item": [
+        {
+          "name": "Textual",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/search/text?q=obligaciones&page=1&page_size=10",
+              "host": ["{{baseUrl}}"],
+              "path": ["search", "text"],
+              "query": [
+                { "key": "q", "value": "obligaciones" },
+                { "key": "page", "value": "1" },
+                { "key": "page_size", "value": "10" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Semantica",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/search/semantic?q=experiencia laboral del candidato&top_k=10",
+              "host": ["{{baseUrl}}"],
+              "path": ["search", "semantic"],
+              "query": [
+                { "key": "q", "value": "experiencia laboral del candidato" },
+                { "key": "top_k", "value": "10" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Consulta RAG",
+      "item": [
+        { "name": "Listar conversaciones", "request": { "method": "GET", "url": "{{baseUrl}}/conversations" } },
+        {
+          "name": "Crear conversacion",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/conversations",
+            "body": { "mode": "raw", "raw": "{\n  \"repository_id\": 1\n}" }
+          }
+        },
+        { "name": "Historial", "request": { "method": "GET", "url": "{{baseUrl}}/conversations/1" } },
+        {
+          "name": "Preguntar",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/conversations/1/ask",
+            "body": { "mode": "raw", "raw": "{\n  \"question\": \"¿Cual es el valor total del contrato CT-2024-40?\"\n}" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dashboard y auditoria",
+      "item": [
+        { "name": "Dashboard", "request": { "method": "GET", "url": "{{baseUrl}}/dashboard" } },
+        {
+          "name": "Logs de auditoria (admin)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/audit-logs?page=1&page_size=25",
+              "host": ["{{baseUrl}}"],
+              "path": ["audit-logs"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "page_size", "value": "25" }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Salud",
+      "item": [
+        {
+          "name": "Health check",
+          "request": {
+            "auth": { "type": "noauth" },
+            "method": "GET",
+            "url": "http://localhost:8000/health"
+          }
+        }
+      ]
+    }
+  ]
+}

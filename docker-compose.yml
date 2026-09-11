@@ -1,0 +1,54 @@
+# Production-style deployment profile: PostgreSQL + backend + frontend.
+# NOTE: this profile was authored for environments with Docker available.
+# The development machine used to build this project has no Docker, so this
+# compose file is delivered as a documented deployment path (see
+# docs/05-implementacion-y-despliegue.md) and validated by configuration
+# review, not by a live run on that machine.
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: docuintel
+      POSTGRES_USER: docuintel
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Defina POSTGRES_PASSWORD en .env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U docuintel -d docuintel"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./backend
+    environment:
+      APP_ENV: production
+      DATABASE_URL: postgresql+psycopg2://docuintel:${POSTGRES_PASSWORD}@db:5432/docuintel
+      SECRET_KEY: ${SECRET_KEY:?Defina SECRET_KEY en .env}
+      STORAGE_DIR: /data/storage
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8080}
+      AI_PROVIDER: ${AI_PROVIDER:-deterministic}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-https://api.openai.com/v1}
+      AI_CHAT_MODEL: ${AI_CHAT_MODEL:-gpt-4o-mini}
+      AI_EMBEDDING_MODEL: ${AI_EMBEDDING_MODEL:-text-embedding-3-small}
+      SEED_ADMIN_EMAIL: ${SEED_ADMIN_EMAIL:-admin@docuintel.co}
+      SEED_ADMIN_PASSWORD: ${SEED_ADMIN_PASSWORD:?Defina SEED_ADMIN_PASSWORD en .env}
+      SEED_USER_EMAIL: ${SEED_USER_EMAIL:-usuario@docuintel.co}
+      SEED_USER_PASSWORD: ${SEED_USER_PASSWORD:?Defina SEED_USER_PASSWORD en .env}
+    volumes:
+      - storage:/data/storage
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
+  storage:

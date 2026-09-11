@@ -1,0 +1,35 @@
+[up] contrato_10.txt
+[up] hoja_de_vida_01.pdf
+[up] hoja_de_vida_02.pdf
+[up] hoja_de_vida_03.pdf
+[up] hoja_de_vida_04.pdf
+[up] hoja_de_vida_05.docx
+[up] hoja_de_vida_06.docx
+[up] hoja_de_vida_07.docx
+[up] hoja_de_vida_08.txt
+[up] hoja_de_vida_09.txt
+[up] hoja_de_vida_10.txt
+[..] 30 documentos cargados; esperando pipeline...
+    estados: {'queued': 30}
+    estados: {'completed': 30}
+
+=== RESUMEN DEL CORPUS CARGADO ===
+{
+  "document_count": 30,
+  "by_status": {
+    "completed": 30
+  },
+  "by_category": {
+    "financiero": 10,
+    "legal": 10,
+    "talento_humano": 10
+  },
+  "by_format": {
+    "docx": 9,
+    "pdf": 12,
+    "txt": 9
+  },
+  "total_size_bytes": 374907
+}
+
+[ok] Corpus completo procesado sin fallos

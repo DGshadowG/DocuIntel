@@ -1,0 +1,12 @@
+[22m[39m⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ [32m✓[39m src/test/ui.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 302[2mms[22m[39m
+ [32m✓[39m src/test/login.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 781[2mms[22m[39m
+   [33m[2m✓[22m[39m LoginPage[2m > [22menvía credenciales y muestra el error del backend si falla [33m603[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m      Tests [22m [1m[32m11 passed[39m[22m[90m (11)[39m
+[2m   Start at [22m 09:09:09
+[2m   Duration [22m 2.93s[2m (transform 98ms, setup 248ms, collect 549ms, tests 1.08s, environment 1.76s, prepare 321ms)[22m
+

@@ -1,0 +1,23 @@
+Mantilla PLC
+NIT: 855.261.564-0
+Regimen comun - Responsable de IVA
+
+FACTURA DE VENTA No: FV-2025-163
+Fecha de emision: 20/07/2025
+Fecha de vencimiento: 28/08/2025
+Cliente: Hernández Group
+Direccion: Av. carrera 3ª # 7-49 Este, Curumaní
+
+DETALLE DE LA FACTURA
+- Publicidad digital y pauta en redes | Cantidad: 1 | Valor unitario: $1,716.69 | Valor: $1,716.69
+- Servicio de consultoria tecnologica | Cantidad: 9 | Valor unitario: $1,889.65 | Valor: $17,006.85
+- Arrendamiento de equipos audiovisuales | Cantidad: 6 | Valor unitario: $323.30 | Valor: $1,939.80
+
+Subtotal: $20,663.34
+IVA (19%): $3,926.03
+Total a pagar: $24,589.37
+Moneda: EUR
+
+Forma de pago: Contado
+Esta factura se asimila en sus efectos a una letra de cambio (Art. 774 C. de Co.).
+Documento generado con datos ficticios para fines academicos.

@@ -1,0 +1,441 @@
+{
+  "executed_at": "2026-09-11T08:51:44.428805",
+  "documents_evaluated": 30,
+  "classification_accuracy": 1.0,
+  "classification_correct": 30,
+  "field_accuracy": 1.0,
+  "fields_correct": 130,
+  "fields_total": 130,
+  "detail": [
+    {
+      "filename": "factura_01.pdf",
+      "format": "pdf",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "factura_02.pdf",
+      "format": "pdf",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "factura_03.pdf",
+      "format": "pdf",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "factura_04.pdf",
+      "format": "pdf",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "factura_05.docx",
+      "format": "docx",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "factura_06.docx",
+      "format": "docx",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "factura_07.docx",
+      "format": "docx",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.97,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "factura_08.txt",
+      "format": "txt",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "factura_09.txt",
+      "format": "txt",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "factura_10.txt",
+      "format": "txt",
+      "expected_category": "financiero",
+      "predicted_category": "financiero",
+      "classification_ok": true,
+      "confidence": 0.97,
+      "fields": {
+        "numero_factura": true,
+        "subtotal": true,
+        "impuestos": true,
+        "total": true,
+        "moneda": true
+      }
+    },
+    {
+      "filename": "contrato_01.pdf",
+      "format": "pdf",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.98,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "contrato_02.pdf",
+      "format": "pdf",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "contrato_03.pdf",
+      "format": "pdf",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.98,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "contrato_04.pdf",
+      "format": "pdf",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.99,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "contrato_05.docx",
+      "format": "docx",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.98,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "contrato_06.docx",
+      "format": "docx",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.98,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "contrato_07.docx",
+      "format": "docx",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.98,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "contrato_08.txt",
+      "format": "txt",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.97,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "contrato_09.txt",
+      "format": "txt",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.97,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "contrato_10.txt",
+      "format": "txt",
+      "expected_category": "legal",
+      "predicted_category": "legal",
+      "classification_ok": true,
+      "confidence": 0.98,
+      "fields": {
+        "fecha_inicio": true,
+        "fecha_terminacion": true,
+        "duracion": true,
+        "obligaciones": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_01.pdf",
+      "format": "pdf",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.94,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_02.pdf",
+      "format": "pdf",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.9,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_03.pdf",
+      "format": "pdf",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.88,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_04.pdf",
+      "format": "pdf",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.94,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_05.docx",
+      "format": "docx",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.81,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_06.docx",
+      "format": "docx",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.91,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_07.docx",
+      "format": "docx",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.68,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_08.txt",
+      "format": "txt",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.89,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_09.txt",
+      "format": "txt",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.91,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    },
+    {
+      "filename": "hoja_de_vida_10.txt",
+      "format": "txt",
+      "expected_category": "talento_humano",
+      "predicted_category": "talento_humano",
+      "classification_ok": true,
+      "confidence": 0.94,
+      "fields": {
+        "nombre": true,
+        "educacion": true,
+        "experiencia": true,
+        "habilidades": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Entornos y secretos
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Node
+node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Datos locales generados
+database/*.db
+database/*.db-*
+storage/
+tmp/
+
+# Playwright
+frontend/test-results/
+frontend/playwright-report/
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.atl/

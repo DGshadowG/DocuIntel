@@ -1,0 +1,4 @@
+Clasificacion: 30/30 (100%)
+Campos extraidos: 130/130 (100%)
+
+Evidencia: evidence/test-results/ground-truth-eval.json

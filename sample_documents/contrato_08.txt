@@ -1,0 +1,23 @@
+CONTRATO No CT-2025-61
+CONTRATO DE ARRENDAMIENTO
+
+Contratante: Arango PLC
+Contratista: Tamayo and Sons
+
+Entre los suscritos, Arango PLC, sociedad legalmente constituida, quien en adelante se denominara EL CONTRATANTE, y Tamayo and Sons, quien en adelante se denominara EL CONTRATISTA, se ha celebrado el presente contrato que se regira por las siguientes clausulas:
+
+PRIMERA - OBJETO DEL CONTRATO: El diseno, desarrollo e implementacion de la tienda virtual corporativa.
+SEGUNDA - PLAZO: El presente contrato tendra una duracion: 3 meses.
+Fecha de inicio: 08/01/2025
+Fecha de terminacion: 08/04/2025
+TERCERA - VALOR: El valor total del contrato es de Valor del contrato: $468.000.000 COP.
+CUARTA - OBLIGACIONES DE LAS PARTES:
+1. Suministrar la informacion necesaria para la correcta ejecucion del contrato.
+2. Guardar estricta confidencialidad sobre la informacion conocida en desarrollo del contrato.
+3. Cumplir con las normas de seguridad y salud en el trabajo aplicables.
+QUINTA - TERMINACION: El contrato podra darse por terminado por mutuo acuerdo, por incumplimiento de las obligaciones o por vencimiento del plazo pactado.
+SEXTA - CONFIDENCIALIDAD: Las partes se obligan a mantener reserva sobre la informacion intercambiada con ocasion de este contrato.
+
+Para constancia se firma en San José el 8 de enero de 2025.
+
+Documento generado con datos ficticios para fines academicos.

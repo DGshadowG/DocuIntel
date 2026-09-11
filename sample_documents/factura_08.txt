@@ -1,0 +1,23 @@
+Camargo, Carrillo and Montoya
+NIT: 874.508.470-3
+Regimen comun - Responsable de IVA
+
+FACTURA DE VENTA No: FV-2025-149
+Fecha de emision: 23/10/2025
+Cliente: Solano-Herrera
+Direccion: Calle 50 # 22Y-58 Este, Trujillo
+
+DETALLE DE LA FACTURA
+- Suministro de papeleria corporativa | Cantidad: 8 | Valor unitario: $665.000 | Valor: $5.320.000
+- Desarrollo de modulo de inventarios | Cantidad: 3 | Valor unitario: $1.090.000 | Valor: $3.270.000
+- Adecuacion de redes electricas | Cantidad: 9 | Valor unitario: $2.287.000 | Valor: $20.583.000
+- Desarrollo de modulo de inventarios | Cantidad: 10 | Valor unitario: $1.834.000 | Valor: $18.340.000
+
+Subtotal: $47.513.000
+IVA (19%): $9.027.470
+Total a pagar: $56.540.470
+Moneda: COP
+
+Forma de pago: Transferencia bancaria
+Esta factura se asimila en sus efectos a una letra de cambio (Art. 774 C. de Co.).
+Documento generado con datos ficticios para fines academicos.

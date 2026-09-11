@@ -1,0 +1,30 @@
+[
+  {
+    "id": "RAG-01",
+    "question": "¿Cual es el total a pagar de la factura FV-2024-100?",
+    "expected_contains": "15722280",
+    "expected_source": "factura_01.pdf",
+    "expect_grounded": true
+  },
+  {
+    "id": "RAG-02",
+    "question": "¿Cual es la fecha de terminacion del contrato entre Álvarez, Barragán and Bernal y Betty Delgado González?",
+    "expected_contains": "17/11/2024",
+    "expected_source": "contrato_01.pdf",
+    "expect_grounded": true
+  },
+  {
+    "id": "RAG-03",
+    "question": "¿Que habilidades tiene Lucía Jiménez Tamayo?",
+    "expected_contains": null,
+    "expected_source": "hoja_de_vida_01.pdf",
+    "expect_grounded": true
+  },
+  {
+    "id": "RAG-04",
+    "question": "¿Cual es la receta de la bandeja paisa tradicional?",
+    "expected_contains": "No se encontro evidencia suficiente",
+    "expected_source": null,
+    "expect_grounded": false
+  }
+]

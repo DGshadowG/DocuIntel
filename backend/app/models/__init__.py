@@ -1,0 +1,17 @@
+from app.models.entities import (  # noqa: F401
+    AuditLog,
+    Citation,
+    Classification,
+    Conversation,
+    Document,
+    DocumentChunk,
+    DocumentText,
+    Embedding,
+    ExtractedField,
+    Message,
+    ProcessingJob,
+    Repository,
+    RepositoryMember,
+    Summary,
+    User,
+)

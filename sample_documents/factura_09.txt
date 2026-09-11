@@ -1,0 +1,21 @@
+Ramírez, Arias and Pérez
+NIT: 887.532.710-1
+Regimen comun - Responsable de IVA
+
+FACTURA DE VENTA No: FV-2024-156
+Fecha de emision: 16/09/2024
+Fecha de vencimiento: 28/10/2024
+Cliente: Prada, Carvajal and Reyes
+Direccion: Cl. 44 # 2-2 Este, Rovira
+
+DETALLE DE LA FACTURA
+- Mantenimiento de equipos de computo | Cantidad: 3 | Valor unitario: $3.324.000 | Valor: $9.972.000
+
+Subtotal: $9.972.000
+IVA (19%): $1.894.680
+Total a pagar: $11.866.680
+Moneda: COP
+
+Forma de pago: Credito 30 dias
+Esta factura se asimila en sus efectos a una letra de cambio (Art. 774 C. de Co.).
+Documento generado con datos ficticios para fines academicos.

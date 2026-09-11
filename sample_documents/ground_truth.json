@@ -1,0 +1,496 @@
+[
+  {
+    "filename": "factura_01.pdf",
+    "format": "pdf",
+    "title": "Factura FV-2024-100",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "González, Villamizar and Vargas",
+      "numero_factura": "FV-2024-100",
+      "fecha_emision": "04/11/2024",
+      "fecha_vencimiento": "19/12/2024",
+      "subtotal": 13212000.0,
+      "impuestos": 2510280.0,
+      "total": 15722280.0,
+      "moneda": "COP"
+    }
+  },
+  {
+    "filename": "factura_02.pdf",
+    "format": "pdf",
+    "title": "Factura FV-2025-107",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "Ramírez, Bernal and Vásquez",
+      "numero_factura": "FV-2025-107",
+      "fecha_emision": "08/04/2025",
+      "fecha_vencimiento": "28/05/2025",
+      "subtotal": 12048000.0,
+      "impuestos": 2289120.0,
+      "total": 14337120.0,
+      "moneda": "COP"
+    }
+  },
+  {
+    "filename": "factura_03.pdf",
+    "format": "pdf",
+    "title": "Factura FV-2024-114",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "Yepes LLC",
+      "numero_factura": "FV-2024-114",
+      "fecha_emision": "19/08/2024",
+      "fecha_vencimiento": "28/09/2024",
+      "subtotal": 13194000.0,
+      "impuestos": 2506860.0,
+      "total": 15700860.0,
+      "moneda": "COP"
+    }
+  },
+  {
+    "filename": "factura_04.pdf",
+    "format": "pdf",
+    "title": "Factura FV-2025-121",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "Beltrán, Prieto and Escobar",
+      "numero_factura": "FV-2025-121",
+      "fecha_emision": "12/02/2025",
+      "fecha_vencimiento": "28/03/2025",
+      "subtotal": 38407000.0,
+      "impuestos": 7297330.0,
+      "total": 45704330.0,
+      "moneda": "COP"
+    }
+  },
+  {
+    "filename": "factura_05.docx",
+    "format": "docx",
+    "title": "Factura FV-2024-128",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "Rojas-Ortiz",
+      "numero_factura": "FV-2024-128",
+      "fecha_emision": "23 de abril de 2024",
+      "fecha_vencimiento": "28/05/2024",
+      "subtotal": 10438000.0,
+      "impuestos": 1983220.0,
+      "total": 12421220.0,
+      "moneda": "COP"
+    }
+  },
+  {
+    "filename": "factura_06.docx",
+    "format": "docx",
+    "title": "Factura FV-2025-135",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "Ortiz-Rojas",
+      "numero_factura": "FV-2025-135",
+      "fecha_emision": "12/06/2025",
+      "fecha_vencimiento": "27/07/2025",
+      "subtotal": 6801000.0,
+      "impuestos": 1292190.0,
+      "total": 8093190.0,
+      "moneda": "COP"
+    }
+  },
+  {
+    "filename": "factura_07.docx",
+    "format": "docx",
+    "title": "Factura FV-2024-142",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "Castillo, Torres and Bolívar",
+      "numero_factura": "FV-2024-142",
+      "fecha_emision": "21/05/2024",
+      "fecha_vencimiento": "28/06/2024",
+      "subtotal": 20943.62,
+      "impuestos": 3979.29,
+      "total": 24922.91,
+      "moneda": "EUR"
+    }
+  },
+  {
+    "filename": "factura_08.txt",
+    "format": "txt",
+    "title": "Factura FV-2025-149",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "Camargo, Carrillo and Montoya",
+      "numero_factura": "FV-2025-149",
+      "fecha_emision": "23/10/2025",
+      "fecha_vencimiento": null,
+      "subtotal": 47513000.0,
+      "impuestos": 9027470.0,
+      "total": 56540470.0,
+      "moneda": "COP"
+    }
+  },
+  {
+    "filename": "factura_09.txt",
+    "format": "txt",
+    "title": "Factura FV-2024-156",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "Ramírez, Arias and Pérez",
+      "numero_factura": "FV-2024-156",
+      "fecha_emision": "16/09/2024",
+      "fecha_vencimiento": "28/10/2024",
+      "subtotal": 9972000.0,
+      "impuestos": 1894680.0,
+      "total": 11866680.0,
+      "moneda": "COP"
+    }
+  },
+  {
+    "filename": "factura_10.txt",
+    "format": "txt",
+    "title": "Factura FV-2025-163",
+    "category": "financiero",
+    "fields": {
+      "proveedor": "Mantilla PLC",
+      "numero_factura": "FV-2025-163",
+      "fecha_emision": "20/07/2025",
+      "fecha_vencimiento": "28/08/2025",
+      "subtotal": 20663.34,
+      "impuestos": 3926.03,
+      "total": 24589.37,
+      "moneda": "EUR"
+    }
+  },
+  {
+    "filename": "contrato_01.pdf",
+    "format": "pdf",
+    "title": "Contrato CT-2024-40",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Álvarez, Barragán and Bernal",
+        "Betty Delgado González"
+      ],
+      "objeto_contiene": "servicios",
+      "fecha_inicio": "17/05/2024",
+      "fecha_terminacion": "17/11/2024",
+      "duracion": "6 meses",
+      "valor": "$264.000.000 COP",
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "contrato_02.pdf",
+    "format": "pdf",
+    "title": "Contrato CT-2025-43",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Quintero PLC",
+        "Torres, Torres and García"
+      ],
+      "objeto_contiene": "un",
+      "fecha_inicio": "25/06/2025",
+      "fecha_terminacion": "25/12/2025",
+      "duracion": "6 meses",
+      "valor": "$281.000.000 COP",
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "contrato_03.pdf",
+    "format": "pdf",
+    "title": "Contrato CT-2024-46",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Martínez Inc",
+        "García-Moreno"
+      ],
+      "objeto_contiene": "servicios",
+      "fecha_inicio": "27/06/2024",
+      "fecha_terminacion": "27/06/2025",
+      "duracion": "12 meses",
+      "valor": "$127.000.000 COP",
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "contrato_04.pdf",
+    "format": "pdf",
+    "title": "Contrato CT-2025-49",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Montoya Ltd",
+        "Freddy Jaramillo Ortega"
+      ],
+      "objeto_contiene": "de",
+      "fecha_inicio": "27/08/2025",
+      "fecha_terminacion": "27/11/2025",
+      "duracion": "3 meses",
+      "valor": "$394.000.000 COP",
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "contrato_05.docx",
+    "format": "docx",
+    "title": "Contrato CT-2024-52",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Ramírez-López",
+        "Mosquera-Peña"
+      ],
+      "objeto_contiene": "servicios",
+      "fecha_inicio": "28/09/2024",
+      "fecha_terminacion": "28/09/2026",
+      "duracion": "24 meses",
+      "valor": "$221.000.000 COP",
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "contrato_06.docx",
+    "format": "docx",
+    "title": "Contrato CT-2025-55",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Arango, Jaimes and Martínez",
+        "Herrera, Prieto and Vargas"
+      ],
+      "objeto_contiene": "proyecto",
+      "fecha_inicio": "15/06/2025",
+      "fecha_terminacion": "15/06/2027",
+      "duracion": "24 meses",
+      "valor": "$236.000.000 COP",
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "contrato_07.docx",
+    "format": "docx",
+    "title": "Contrato CT-2024-58",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Cardona, Salazar and Castro",
+        "Tatiana Salgado Marín"
+      ],
+      "objeto_contiene": "servicios",
+      "fecha_inicio": "19/01/2024",
+      "fecha_terminacion": "19/01/2026",
+      "duracion": "24 meses",
+      "valor": null,
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "contrato_08.txt",
+    "format": "txt",
+    "title": "Contrato CT-2025-61",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Arango PLC",
+        "Tamayo and Sons"
+      ],
+      "objeto_contiene": "e",
+      "fecha_inicio": "08/01/2025",
+      "fecha_terminacion": "08/04/2025",
+      "duracion": "3 meses",
+      "valor": "$468.000.000 COP",
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "contrato_09.txt",
+    "format": "txt",
+    "title": "Contrato CT-2024-64",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Reyes-Rojas",
+        "Pabón-Pérez"
+      ],
+      "objeto_contiene": "servicios",
+      "fecha_inicio": "07/08/2024",
+      "fecha_terminacion": "07/08/2026",
+      "duracion": "24 meses",
+      "valor": "$72.000.000 COP",
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "contrato_10.txt",
+    "format": "txt",
+    "title": "Contrato CT-2025-67",
+    "category": "legal",
+    "fields": {
+      "partes": [
+        "Ortiz-Páez",
+        "Yasmín Salazar Yepes"
+      ],
+      "objeto_contiene": "soporte",
+      "fecha_inicio": "04/04/2025",
+      "fecha_terminacion": "04/07/2025",
+      "duracion": "3 meses",
+      "valor": "$342.000.000 COP",
+      "num_obligaciones_min": 3
+    }
+  },
+  {
+    "filename": "hoja_de_vida_01.pdf",
+    "format": "pdf",
+    "title": "Hoja de vida - Lucía Jiménez Tamayo",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "Lucía Jiménez Tamayo",
+      "num_educacion": 2,
+      "num_experiencia": 1,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)",
+        "Ingles (C1)"
+      ]
+    }
+  },
+  {
+    "filename": "hoja_de_vida_02.pdf",
+    "format": "pdf",
+    "title": "Hoja de vida - Juan Mora Márquez",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "Juan Mora Márquez",
+      "num_educacion": 1,
+      "num_experiencia": 2,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)",
+        "Ingles (C1)"
+      ]
+    }
+  },
+  {
+    "filename": "hoja_de_vida_03.pdf",
+    "format": "pdf",
+    "title": "Hoja de vida - Javier Moreno González",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "Javier Moreno González",
+      "num_educacion": 2,
+      "num_experiencia": 2,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)"
+      ]
+    }
+  },
+  {
+    "filename": "hoja_de_vida_04.pdf",
+    "format": "pdf",
+    "title": "Hoja de vida - Ignacio Ramírez Becerra",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "Ignacio Ramírez Becerra",
+      "num_educacion": 1,
+      "num_experiencia": 3,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)"
+      ]
+    }
+  },
+  {
+    "filename": "hoja_de_vida_05.docx",
+    "format": "docx",
+    "title": "Hoja de vida - Patricia Rojas Ortiz",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "Patricia Rojas Ortiz",
+      "num_educacion": 2,
+      "num_experiencia": 3,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)"
+      ]
+    }
+  },
+  {
+    "filename": "hoja_de_vida_06.docx",
+    "format": "docx",
+    "title": "Hoja de vida - María Ayala Suárez",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "María Ayala Suárez",
+      "num_educacion": 1,
+      "num_experiencia": 3,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)"
+      ]
+    }
+  },
+  {
+    "filename": "hoja_de_vida_07.docx",
+    "format": "docx",
+    "title": "Hoja de vida - Adriana Acevedo Ortiz",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "Adriana Acevedo Ortiz",
+      "num_educacion": 2,
+      "num_experiencia": 3,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)",
+        "Ingles (A2)"
+      ]
+    }
+  },
+  {
+    "filename": "hoja_de_vida_08.txt",
+    "format": "txt",
+    "title": "Hoja de vida - Fernando Muñoz Mena",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "Fernando Muñoz Mena",
+      "num_educacion": 1,
+      "num_experiencia": 2,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)"
+      ]
+    }
+  },
+  {
+    "filename": "hoja_de_vida_09.txt",
+    "format": "txt",
+    "title": "Hoja de vida - Ruby Gómez Morales",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "Ruby Gómez Morales",
+      "num_educacion": 2,
+      "num_experiencia": 2,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)"
+      ]
+    }
+  },
+  {
+    "filename": "hoja_de_vida_10.txt",
+    "format": "txt",
+    "title": "Hoja de vida - Dairo Zambrano Velandia",
+    "category": "talento_humano",
+    "fields": {
+      "nombre": "Dairo Zambrano Velandia",
+      "num_educacion": 1,
+      "num_experiencia": 1,
+      "num_habilidades": 5,
+      "idiomas": [
+        "Espanol (nativo)",
+        "Ingles (C1)"
+      ]
+    }
+  }
+]

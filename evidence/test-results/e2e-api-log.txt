@@ -1,0 +1,26 @@
+[OK ] Health check — db=ok, ia=deterministic
+[OK ] Login administrador
+[OK ] Crear repositorio — id=3
+[OK ] Carga PDF (factura_01.pdf)
+[OK ] Carga DOCX (contrato_05.docx)
+[OK ] Carga TXT (hoja_de_vida_08.txt)
+[OK ] Pipeline completo para los 3 formatos — {'hoja_de_vida_08.txt': 'completed', 'contrato_05.docx': 'completed', 'factura_01.pdf': 'completed'}
+[OK ] Clasificacion factura_01.pdf — predicha=financiero
+[OK ] Resumen factura_01.pdf
+[OK ] Extraccion invoice factura_01.pdf — esquemas=['invoice']
+[OK ] Clasificacion contrato_05.docx — predicha=legal
+[OK ] Resumen contrato_05.docx
+[OK ] Extraccion contract contrato_05.docx — esquemas=['contract']
+[OK ] Clasificacion hoja_de_vida_08.txt — predicha=talento_humano
+[OK ] Resumen hoja_de_vida_08.txt
+[OK ] Extraccion resume hoja_de_vida_08.txt — esquemas=['resume']
+[OK ] Busqueda textual — 1 resultados, primero=contrato_05.docx
+[OK ] Busqueda semantica — top=hoja_de_vida_08.txt, score=0.1788
+[OK ] RAG: ¿Cual es el total a pagar de la factura FV-2024-100?... — citas=3, latencia=0ms, fuente=factura_01.pdf
+[OK ] RAG: ¿Cual es la fecha de terminacion del contrato entre Ramírez-... — citas=2, latencia=14ms, fuente=contrato_05.docx
+[OK ] RAG: ¿Que habilidades tiene Fernando Muñoz Mena?... — citas=1, latencia=0ms, fuente=hoja_de_vida_08.txt
+[OK ] RAG: ¿Cual es la receta de la bandeja paisa tradicional?... — sin evidencia detectada correctamente
+[OK ] Dashboard con datos reales — docs=33, procesados=33
+[OK ] Limpieza del repositorio E2E
+
+Evidencia guardada en evidence/test-results/e2e-api-results.json (24 pasos OK, 0 fallidos)
